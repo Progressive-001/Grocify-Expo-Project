@@ -4,7 +4,7 @@ import { Link } from "expo-router";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <Text className="text-red-500">Edit src/app/index.tsx to edit this screen.</Text>
       <Link href={"/about"}>About us</Link>
     </View>
   );
